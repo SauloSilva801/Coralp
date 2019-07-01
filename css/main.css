@@ -187,6 +187,11 @@ body{
 
 /* sessao ganhador */
 
+.pog{
+    margin-top: 15vh;
+    display: none;
+}
+
 .ganhador{
     width: 100%;
     height: 180vh;
@@ -251,6 +256,7 @@ body{
 .reg{
     width: 65%;
     margin: -10vh auto;
+    text-align: center;
 }
 
 .reg h1{
@@ -267,6 +273,9 @@ body{
     text-align: left;
 }
 
+.fm{
+    display: none;
+}
 
 .cad{
     width: 80%;
@@ -445,8 +454,8 @@ input[type='checkbox']:checked:after {
 }
 
 .dr{
-    width: 25%;
-    margin: 0 auto;
+    width: 35%;
+    display: inline-block;
     margin-top: 3%;
 }
 
@@ -471,5 +480,221 @@ footer{
 footer img{
     width: 6%;
 }
+
+
 /* responsivo */
+
+@media screen and (max-width: 1040px){
+    .voucher{
+        width: 55%;
+        margin: 0 auto;
+        margin-top: -70px;
+        background-image: url('../images/voucher-s2.png');
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 350px;
+    }
+}
+
+
+@media screen and (max-width: 936px){
+    
+    .cf{
+        padding: 40px;
+        background-color: #ededed;
+        width: 75%;
+        height: auto;
+        position: relative;
+        float: left;
+        left: 50%;
+        top: 90vh;
+        transform: translateX(-50%);
+        }
+
+    .conteudo-cf-1{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        font-size: 36px;
+        top: 10px;
+    }
+
+    .conteudo-cf-2{
+        position: relative;
+        float: left;
+        text-align: left;
+        width: 100%;
+        font-size: 22px;
+        margin-top: 2vh;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .pog{
+        display: block;
+    }
+
+    .ganhador h1{
+        font-size: 3.8em;
+    }
+
+    .voucher{
+        width: 50%;
+        background-size: 120%;
+    }
+
+    .t-v{
+        width: 90%;
+        font-size: 17px;
+    }
+
+    .rp2{
+        top: 10vh;
+    }
+
+    .reg{
+        width: 100%;
+        margin: -10vh auto;
+        text-align: center;
+    }
+
+    .reg h1{
+        font-family: Gotham;
+        font-size: 26px;
+        font-weight: bold;
+        color: #6b6b6b;
+        margin-top: -40px;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .reg p{
+        width: 90%;
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .fm{
+        display: block;
+    }
+
+    .fm-img{
+        width: 30%;
+        margin: 6vh 0;
+    }
+
+    .cad{
+        width: 100%;
+        background-color: #f5f5f5;
+        padding: 0px;
+        text-align: center;
+        box-shadow: 0;
+    }
+
+    .cad input{
+        background-color: #fdfdfd;
+        font-size: 18px;
+        border-radius: 15px;
+        font-family: Gotham;
+        border: 0px;
+        display: inline-block;
+        padding: 1% 0 1% 7%;
+        margin: 2% 0;
+    }
+
+    input[type=submit]{
+        background-color: #73b87c;
+        color: #fdfdfd;
+        text-transform: uppercase;
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+        padding: 2%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .name{
+        display: inline-block;
+        width: 90%;
+        height: 30px;
+    }
+
+    .empresa{
+        display: inline-block;
+        width: 90%;
+        height: 30px;
+    }
+
+    .uni{
+        display: inline-block;
+        width: 90%;
+        height: 30px;
+        margin: 0;
+        float: none;
+    }
+
+    .email{
+        display: inline-block;
+        width: 90%;
+        height: 30px;
+    }
+
+    .cpf{
+        display: inline-block;
+        width: 90%;
+        height: 30px;
+        float: none;
+    }
+
+    .telefone{
+        display: inline-block;
+        width: 90%;
+        height: 30px;
+        float: none;
+    }
+
+     .dr{
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 3%;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .dr{
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 6%;
+    }
+
+    .dr button{
+        background-color: #3172d4;
+        color: white;
+        padding: 15px 20px;
+        font-weight: bold;
+        font-size: 15px;
+        font-family: Gotham;
+        border: none;
+        border-radius: 4px;
+    }
+
+    footer img{
+    width: 16%;
+    }
+
+}
+
+@media screen and (max-width: 607px){
+    .rp2{
+        top: 5vh;
+    }
+}
+
 
